@@ -6,8 +6,8 @@ const Projects = () => {
 
   return (
     <section id="projects" className="bg-gray-50 dark:bg-gray-800 transition-colors">
-      <div className="max-w-6xl mx-auto px-4 py-16">
-        <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-12">
+      <div className="max-w-6xl mx-auto px-6 sm:px-8 md:px-12 py-16">
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-12">
           {projects.title}
         </h2>
 
@@ -42,14 +42,14 @@ const Projects = () => {
                   {project.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="px-3 py-1 bg-primary dark:bg-purple-600 text-white text-xs rounded-full"
+                      className="px-3 py-1 bg-white dark:bg-gray-800 text-primary dark:text-purple-400 text-xs rounded border-2 border-primary dark:border-purple-600"
                     >
                       {tech}
                     </span>
                   ))}
                 </div>
 
-                <div className="flex gap-4">
+                <div className="flex justify-between items-center">
                   <a
                     href={project.githubLink}
                     className="text-primary dark:text-purple-400 hover:underline font-medium"

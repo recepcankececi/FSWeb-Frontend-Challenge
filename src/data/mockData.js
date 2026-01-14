@@ -7,7 +7,7 @@ export const mockData = {
       hireButton: "Hire me",
       githubButton: "Github",
       linkedinButton: "Linkedin",
-      heroImage: "/images/hero-image.jpg"
+      heroImage: "/images/hero-image.png"
     },
     skills: {
       title: "Skills",
@@ -50,7 +50,7 @@ export const mockData = {
           technologies: ["react", "vercel", "axios"],
           githubLink: "#",
           viewSiteLink: "#",
-          image: "/images/project-1.jpg"
+          image: "/images/project-1.png"
         },
         {
           name: "Random Jokes",
@@ -58,7 +58,7 @@ export const mockData = {
           technologies: ["react", "vercel", "axios"],
           githubLink: "#",
           viewSiteLink: "#",
-          image: "/images/project-2.jpg"
+          image: "/images/project-2.png"
         },
         {
           name: "Journey",
@@ -66,7 +66,7 @@ export const mockData = {
           technologies: ["react", "vercel", "axios"],
           githubLink: "#",
           viewSiteLink: "#",
-          image: "/images/project-3.jpg"
+          image: "/images/project-3.png"
         }
       ]
     },
@@ -88,7 +88,7 @@ export const mockData = {
       hireButton: "Hire me",
       githubButton: "Github",
       linkedinButton: "Linkedin",
-      heroImage: "/images/hero-image.jpg"
+      heroImage: "/images/hero-image.png"
     },
     skills: {
       title: "Skills",
@@ -131,7 +131,7 @@ export const mockData = {
           technologies: ["react", "vercel", "axios"],
           githubLink: "#",
           viewSiteLink: "#",
-          image: "/images/project-1.jpg"
+          image: "/images/project-1.png"
         },
         {
           name: "Random Jokes",
@@ -139,7 +139,7 @@ export const mockData = {
           technologies: ["react", "vercel", "axios"],
           githubLink: "#",
           viewSiteLink: "#",
-          image: "/images/project-2.jpg"
+          image: "/images/project-2.png"
         },
         {
           name: "Journey",
@@ -147,7 +147,7 @@ export const mockData = {
           technologies: ["react", "vercel", "axios"],
           githubLink: "#",
           viewSiteLink: "#",
-          image: "/images/project-3.jpg"
+          image: "/images/project-3.png"
         }
       ]
     },

@@ -6,8 +6,8 @@ const Skills = () => {
 
   return (
     <section id="skills" className="bg-gray-50 dark:bg-gray-800 transition-colors">
-      <div className="max-w-6xl mx-auto px-4 py-16">
-        <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-12">
+      <div className="max-w-6xl mx-auto px-6 sm:px-8 md:px-12 py-16">
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-12">
           {skills.title}
         </h2>
 
