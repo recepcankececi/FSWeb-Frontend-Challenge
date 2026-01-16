@@ -13,7 +13,7 @@ export const useApp = () => {
 
 export const AppProvider = ({ children }) => {
   const [language, setLanguage] = useState(() => {
-    return localStorage.getItem('language') || 'tr';
+    return localStorage.getItem('language') || 'en';
   });
 
   const [darkMode, setDarkMode] = useState(() => {

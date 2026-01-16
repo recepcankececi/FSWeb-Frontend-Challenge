@@ -21,7 +21,7 @@ const Header = () => {
             onClick={toggleLanguage}
             className="text-primary dark:text-purple-400 font-medium hover:underline transition-colors"
           >
-            <span className="uppercase">{language === 'tr' ? "TÜRKÇE'YE GEÇ" : "SWITCH TO ENGLISH"}</span>
+            <span className="uppercase">{language === 'en' ? "TÜRKÇE'YE GEÇ" : "SWITCH TO ENGLISH"}</span>
           </button>
         </div>
 
